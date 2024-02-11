@@ -11,7 +11,9 @@ pipeline{
                 bat 'npm test'
             }
         }
-        post {
+        
+    }
+    post {
         always {
             publishHTML(target: [
                 allowMissing: false,
@@ -22,6 +24,5 @@ pipeline{
                 reportName: 'Mochawesome Test Report'
             ])
         }
-    }
     }
 }
