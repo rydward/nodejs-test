@@ -11,5 +11,17 @@ pipeline{
                 bat 'npm test'
             }
         }
+        post {
+        always {
+            publishHTML(target: [
+                allowMissing: false,
+                alwaysLinkToLastBuild: true,
+                keepAll: true,
+                reportDir: 'mochawesome-report',
+                reportFiles: 'mochawesome.html',
+                reportName: 'Mochawesome Test Report'
+            ])
+        }
+    }
     }
 }
