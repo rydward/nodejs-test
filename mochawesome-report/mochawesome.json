@@ -1,0 +1,100 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2024-02-11T22:11:08.946Z",
+    "end": "2024-02-11T22:11:08.950Z",
+    "duration": 4,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "8ddaa388-bcb4-4ad2-92f3-1ea3676862fa",
+      "title": "",
+      "fullFile": "C:\\Users\\Lucas Lemal\\OneDrive - Ifag Paris\\Documents\\E.P.S.I\\I1\\jenkins\\projet Nodejs\\test.js",
+      "file": "\\test.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "60bddfd8-291f-4691-ae23-c9825b1c58bc",
+          "title": "Sum",
+          "fullFile": "C:\\Users\\Lucas Lemal\\OneDrive - Ifag Paris\\Documents\\E.P.S.I\\I1\\jenkins\\projet Nodejs\\test.js",
+          "file": "\\test.js",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "should return the sum of two numbers",
+              "fullTitle": "Sum should return the sum of two numbers",
+              "timedOut": false,
+              "duration": 0,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "expect(sum(1, 2)).to.equal(3);",
+              "err": {},
+              "uuid": "22e11d99-f37a-44de-b526-dd7d6c4778d7",
+              "parentUUID": "60bddfd8-291f-4691-ae23-c9825b1c58bc",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "22e11d99-f37a-44de-b526-dd7d6c4778d7"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 0,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "9.2.2"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": null,
+      "version": "6.2.0"
+    }
+  }
+}
